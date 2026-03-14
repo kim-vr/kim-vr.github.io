@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "Markdown is an easy to read and write text format:\n\nIt’s plain text so works well with version control\nIt can be rendered into HTML, PDF, and more\nLearn more at: https://quarto.org/docs/authoring/"
+  },
+  {
+    "objectID": "index.html#markdown",
+    "href": "index.html#markdown",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "Markdown is an easy to read and write text format:\n\nIt’s plain text so works well with version control\nIt can be rendered into HTML, PDF, and more\nLearn more at: https://quarto.org/docs/authoring/"
+  },
+  {
+    "objectID": "index.html#code-cell",
+    "href": "index.html#code-cell",
+    "title": "Hello, Quarto",
+    "section": "Code Cell",
+    "text": "Code Cell\nHere is a Python code cell:\n\nimport os\nos.cpu_count()\n\n22"
+  },
+  {
+    "objectID": "index.html#equation",
+    "href": "index.html#equation",
+    "title": "Hello, Quarto",
+    "section": "Equation",
+    "text": "Equation\nUse LaTeX to write equations:\n\\[\n\\chi' = \\sum_{i=1}^n k_i s_i^2\n\\]"
+  }
+]
