@@ -2,29 +2,15 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hello, Quarto",
+    "title": "Kim van Rijswijk",
     "section": "",
-    "text": "Markdown is an easy to read and write text format:\n\nIt’s plain text so works well with version control\nIt can be rendered into HTML, PDF, and more\nLearn more at: https://quarto.org/docs/authoring/"
+    "text": "Hi ! I am Kim van Rijswijk, a software developper specialized in computer graphics. In this website, you will be able to see my projects, as well as my academic and professional career.\n\nviewof my_3d_canvas = {\n  const canvas = html`&lt;canvas width=\"800\" height=\"800\"&gt;&lt;/canvas&gt;`;\n\n  const { createCube } = await import(\"../../content/cube.js\");\n  createCube(canvas);\n\n  return canvas;\n}"
   },
   {
-    "objectID": "index.html#markdown",
-    "href": "index.html#markdown",
-    "title": "Hello, Quarto",
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Kim van Rijswijk",
     "section": "",
-    "text": "Markdown is an easy to read and write text format:\n\nIt’s plain text so works well with version control\nIt can be rendered into HTML, PDF, and more\nLearn more at: https://quarto.org/docs/authoring/"
-  },
-  {
-    "objectID": "index.html#code-cell",
-    "href": "index.html#code-cell",
-    "title": "Hello, Quarto",
-    "section": "Code Cell",
-    "text": "Code Cell\nHere is a Python code cell:\n\nimport os\nos.cpu_count()\n\n22"
-  },
-  {
-    "objectID": "index.html#equation",
-    "href": "index.html#equation",
-    "title": "Hello, Quarto",
-    "section": "Equation",
-    "text": "Equation\nUse LaTeX to write equations:\n\\[\n\\chi' = \\sum_{i=1}^n k_i s_i^2\n\\]"
+    "text": "Hi ! I am Kim van Rijswijk, a software developper specialized in computer graphics. In this website, you will be able to see my projects, as well as my academic and professional career.\n\nviewof my_3d_canvas = {\n  const canvas = html`&lt;canvas width=\"800\" height=\"800\"&gt;&lt;/canvas&gt;`;\n\n  const { createCube } = await import(\"../../content/cube.js\");\n  createCube(canvas);\n\n  return canvas;\n}"
   }
 ]

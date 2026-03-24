@@ -3,16 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "Portfolio test"
+  title: "Portfolio"
   navbar:
     left:
       - href: index.qmd
-        text: "All my projects will be cited below"
+        text: "Home"
+      - href: index.qmd
+        text: "Academic and Certifications"
+      - href: index.qmd
+        text: "Professional"
+      - href: index.qmd
+        text: "Projects"
   page-footer: "© 2026 kim-vr"
 
 format:
   html:
-    theme: quartz
+    theme: darkly
     toc: true
 
 execute:
