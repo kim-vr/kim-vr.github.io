@@ -8,6 +8,8 @@ website:
     left:
       - href: index.qmd
         text: "Home"
+      - href: photogrammetry.qmd
+        text: "Photogrammetry demo"
       - href: index.qmd
         text: "Academic and Certifications"
       - href: index.qmd
@@ -18,7 +20,13 @@ website:
 
 format:
   html:
-    theme: darkly
+    theme: 
+      dark: 
+        - darkly
+        - content/custom.scss
+      light: 
+        - sketchy
+        - content/custom.scss
     toc: true
 
 execute:

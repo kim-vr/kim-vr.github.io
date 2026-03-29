@@ -1,0 +1,20 @@
+---
+title: "Photogrammetry demo"
+format:
+  html:
+    echo: false
+    include-in-header:
+      text: |
+        <script type="module" src="content/photogrammetry.js"></script>
+---
+
+```{ojs}
+viewof my_3d_canvas = {
+  const canvas = html`<canvas width="800" height="800"></canvas>`;
+
+  const { createTruck } = await import("../../content/photogrammetry.js");
+  createTruck(canvas);
+
+  return canvas;
+}
+```
