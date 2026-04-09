@@ -36,7 +36,7 @@ export function createTruck(canvas) {
   // Load GLB
   const loader = new GLTFLoader();
   loader.load(
-    "./content/texturedMesh.glb",
+    "./content/bart.glb",
     (gltf) => {
       const model = gltf.scene;
 
