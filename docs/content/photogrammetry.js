@@ -10,7 +10,7 @@ export function createTruck(canvas) {
 
   // Scene
   const scene = new THREE.Scene();
-  scene.background = new THREE.Color(0x000000);
+  scene.background = new THREE.Color(0xeeeeee);
 
   // Camera
   const camera = new THREE.PerspectiveCamera(
@@ -19,7 +19,7 @@ export function createTruck(canvas) {
     0.1,
     1000
   );
-  camera.position.set(3, 3, 5);
+  camera.position.set(0, 1, 3);
 
   // Controls
   const controls = new OrbitControls(camera, renderer.domElement);
@@ -33,21 +33,10 @@ export function createTruck(canvas) {
   dirLight.position.set(5, 5, 5);
   scene.add(dirLight);
 
-  // Axes
-  const axesHelper = new THREE.AxesHelper(0.2); // size
-  scene.add(axesHelper);
-
-  // Grid
-  const gridHelper = new THREE.GridHelper(10, 20, 0xffffff, 0xffffff);
-  gridHelper.material.opacity = 0.25;
-  gridHelper.material.transparent = true;
-  gridHelper.position.y = 0;
-  scene.add(gridHelper);
-
   // Load GLB
   const loader = new GLTFLoader();
   loader.load(
-    "./content/texturedMesh.glb",
+    "./content/bart.glb",
     (gltf) => {
       const model = gltf.scene;
 
