@@ -19,7 +19,7 @@ export function createTruck(canvas) {
     0.1,
     1000
   );
-  camera.position.set(0, 1, 3);
+  camera.position.set(0, 50, 30);
 
   // Controls
   const controls = new OrbitControls(camera, renderer.domElement);
@@ -29,8 +29,8 @@ export function createTruck(canvas) {
   const hemiLight = new THREE.HemisphereLight(0xffffff, 0x444444, 1);
   scene.add(hemiLight);
 
-  const dirLight = new THREE.DirectionalLight(0xffffff, 1);
-  dirLight.position.set(5, 5, 5);
+  const dirLight = new THREE.DirectionalLight(0xffffff, 15);
+  dirLight.position.set(5, 60, 5);
   scene.add(dirLight);
 
   // Load GLB
