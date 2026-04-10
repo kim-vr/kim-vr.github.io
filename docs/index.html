@@ -339,33 +339,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-</div>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="13" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 12;"><span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>{</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> canvas <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">createElement</span>(<span class="st">"canvas"</span>)<span class="op">;</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display">
-<div id="ojs-cell-1" data-nodetype="expression">
-
-</div>
-</div>
-</div>
 <section id="about-me" class="level2">
 <h2 class="anchored" data-anchor-id="about-me">About me</h2>
 <p>Hi ! I am a software developper specialized in computer graphics. In this website, you will be able to see my projects, as well as my academic and professional career.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="27" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 26;"><span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>viewof my_3d_canvas <span class="op">=</span> {</span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> canvas <span class="op">=</span> <span class="fu">html</span><span class="vs">`&lt;canvas width="800" height="800"&gt;&lt;/canvas&gt;`</span><span class="op">;</span></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> { createCube } <span class="op">=</span> <span class="cf">await</span> <span class="im">import</span>(<span class="st">"../../content/cube.js"</span>)<span class="op">;</span></span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">createCube</span>(canvas)<span class="op">;</span></span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> canvas<span class="op">;</span></span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="15" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 14;"><span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>viewof my_3d_canvas <span class="op">=</span> {</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> canvas <span class="op">=</span> <span class="fu">html</span><span class="vs">`&lt;canvas width="800" height="800"&gt;&lt;/canvas&gt;`</span><span class="op">;</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> { createCube } <span class="op">=</span> <span class="cf">await</span> <span class="im">import</span>(<span class="st">"../../content/cube.js"</span>)<span class="op">;</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">createCube</span>(canvas)<span class="op">;</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> canvas<span class="op">;</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
-<div id="ojs-cell-2" data-nodetype="declaration">
+<div id="ojs-cell-1" data-nodetype="declaration">
 
+</div>
 </div>
 </div>
 
@@ -374,7 +363,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IntcclxuICBjb25zdCBjYW52YXMgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KFwiY2FudmFzXCIpO1xyXG4gIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwic25vdy1jb250YWluZXJcIikuYXBwZW5kQ2hpbGQoY2FudmFzKTtcclxuXHJcbiAgY29uc3QgeyBjcmVhdGVTbm93QmFja2dyb3VuZCB9ID0gYXdhaXQgaW1wb3J0KFwiLi4vLi4vY29udGVudC9zbm93LmpzXCIpO1xyXG4gIGNyZWF0ZVNub3dCYWNrZ3JvdW5kKGNhbnZhcyk7XHJcbn1cclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoidmlld29mIG15XzNkX2NhbnZhcyA9IHtcclxuICBjb25zdCBjYW52YXMgPSBodG1sYDxjYW52YXMgd2lkdGg9XCI4MDBcIiBoZWlnaHQ9XCI4MDBcIj48L2NhbnZhcz5gO1xyXG5cclxuICBjb25zdCB7IGNyZWF0ZUN1YmUgfSA9IGF3YWl0IGltcG9ydChcIi4uLy4uL2NvbnRlbnQvY3ViZS5qc1wiKTtcclxuICBjcmVhdGVDdWJlKGNhbnZhcyk7XHJcblxyXG4gIHJldHVybiBjYW52YXM7XHJcbn1cclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdteV8zZF9jYW52YXMnKSJ9XX0=
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBteV8zZF9jYW52YXMgPSB7XHJcbiAgY29uc3QgY2FudmFzID0gaHRtbGA8Y2FudmFzIHdpZHRoPVwiODAwXCIgaGVpZ2h0PVwiODAwXCI+PC9jYW52YXM+YDtcclxuXHJcbiAgY29uc3QgeyBjcmVhdGVDdWJlIH0gPSBhd2FpdCBpbXBvcnQoXCIuLi8uLi9jb250ZW50L2N1YmUuanNcIik7XHJcbiAgY3JlYXRlQ3ViZShjYW52YXMpO1xyXG5cclxuICByZXR1cm4gY2FudmFzO1xyXG59XHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnbXlfM2RfY2FudmFzJykifV19
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
