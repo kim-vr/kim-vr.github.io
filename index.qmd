@@ -1,24 +1,29 @@
 ---
-title: "Kim van Rijswijk"
+title: "Photogrammetry demo"
 format:
   html:
     echo: false
     include-in-header:
       text: |
-        <script type="module" src="content/cube.js"></script>
+        <script type="module" src="content/photogrammetry.js"></script>
 ---
-
-## About me
-Hi ! I am Kim van Rijswijk, a software developper specialized in computer graphics. In this website, you will be able to see my 
-projects, as well as my academic and professional career. 
 
 ```{ojs}
 viewof my_3d_canvas = {
   const canvas = html`<canvas width="800" height="800"></canvas>`;
 
-  const { createCube } = await import("../../content/cube.js");
-  createCube(canvas);
+  const { createTruck } = await import("../../content/photogrammetry.js");
+  createTruck(canvas);
 
   return canvas;
 }
 ```
+
+## Description
+
+Cette numérisation 3D a été réalisée par photogrammétrie avec le logiciel d'Epic Games, Reality Scan. La photogrammétrie est une technique qui permet de reconstruire des objets en 3D à partir de photographies. Le logiciel m'a donc permis de traiter les images et générer le modèle 3D de cette peluche. Le résultat pourrait être amélioré en augmentant le nombre de photos, notamment à certains angles et en faisant plus attention à la quantité de lumière (les photos ayant été prises proche d'un mur au sol, certaines zones étaient compliquées à photografier et la lumière variait). \
+J'ai amélioré le résultat dans Reality scan en découpant le modèle, pour ne garder que la peluche, ainsi qu'en supprimant et lissant quelques artefacts très visibles. Cela engendrait souvent des trous compliqués à combler, cela a été la plus grande difficultés. \
+J'ai également ajouté une quinzaine de points de contrôles, dont la moitié aux endroits qui n'étaient pas très bien reconstruits, pour améliorer la géométrie (notamment au niveau de la bouche qui est une zone assez cachée par le nez et qui a donc été difficile à reconstruire correctement). 
+La texture de la peluche n'a pas été très bien reconstruite, cela laisse donc place à de futures améliorations envisageables. Certaines modifications pourraient notamment être réalisées dans Blender pour améliorer le rendu. \
+
+Avant de tester avec cette peluche, j'ai essayé avec une décoration majoritairement blanche. Après plusieurs échecs à cause de l'environnement aux couleurs claires qui se mélangeaient dedans et des reflets, j'ai décidé de changer d'objet.  

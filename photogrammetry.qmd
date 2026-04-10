@@ -1,20 +1,13 @@
 ---
-title: "Photogrammetry demo"
+title: ""
 format:
   html:
     echo: false
     include-in-header:
       text: |
-        <script type="module" src="content/photogrammetry.js"></script>
+        <script type="module" src="content/cube.js"></script>
 ---
 
-```{ojs}
-viewof my_3d_canvas = {
-  const canvas = html`<canvas width="800" height="800"></canvas>`;
-
-  const { createTruck } = await import("../../content/photogrammetry.js");
-  createTruck(canvas);
-
-  return canvas;
-}
-```
+## About me
+Hi ! I am a software developper specialized in computer graphics. In this website, you will be able to see my 
+projects, as well as my academic and professional career. 

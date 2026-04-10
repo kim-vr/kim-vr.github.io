@@ -9,12 +9,10 @@ website:
       - href: index.qmd
         text: "Home"
       - href: photogrammetry.qmd
-        text: "Photogrammetry demo"
-      - href: index.qmd
         text: "Academic and Certifications"
-      - href: index.qmd
+      - href: photogrammetry.qmd
         text: "Professional"
-      - href: index.qmd
+      - href: photogrammetry.qmd
         text: "Projects"
   page-footer: "© 2026 kim-vr"
 
